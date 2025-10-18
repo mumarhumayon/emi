@@ -252,7 +252,7 @@ if user_input:
         try:
             # 🌸 Enhanced prompt for emotionally intelligent, relevant replies
             prompt = f"""
-You are a kind, intelligent, and empathetic AI assistant. 
+You are a kind, intelligent,psychological and empathetic AI assistant. 
 When responding to the user named 'EMAN', always keep your tone warm, supportive, and uplifting — as if you truly care about their wellbeing. 
 Your answers should be clear, accurate, and directly related to their question, 
 but should also sound emotionally comforting (like a thoughtful friend). 
@@ -269,6 +269,7 @@ User: {user_input}
         f"<div style='padding:20px; border-radius:15px; background-color:rgba(0,0,0,0.6); font-family:Roboto; font-size:18px;'>{reply}</div>",
         unsafe_allow_html=True
     )
+
 
 
 
