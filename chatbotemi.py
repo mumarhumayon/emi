@@ -85,8 +85,8 @@ def get_warm_message():
         prompt = (
 """
 Generate a short, gentle, and emotionally comforting message (1–2 lines max) for a 20-year-old girl who often feels sad, lonely, sick, and in grief. 
-The message should sound warm, human, and kind — as if coming from a loving friend. 
-It should help her feel hopeful, relaxed, and emotionally supported. 
+The message should sound warm, human,psychological and kind which can heal anyone— as if coming from a friend. 
+It should help her feel hopeful,happy,relaxed,calm,psychological and emotionally supported. 
 You may include fitting emojis if they enhance comfort or positivity. 
 Avoid generic advice or motivational clichés — make it soft, empathetic, and real. don't ask for any option or anything, just give the expected message
 """
@@ -130,6 +130,7 @@ if user_input:
         f"<div style='padding:20px; border-radius:15px; background-color:rgba(0,0,0,0.6); font-family:Roboto; font-size:18px;'>{reply}</div>",
         unsafe_allow_html=True
     )
+
 
 
 
