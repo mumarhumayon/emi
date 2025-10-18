@@ -116,11 +116,12 @@ if user_input:
             response = model.generate_content(user_input)
             reply = getattr(response, "text", None) or getattr(response, "output_text", "")
         except Exception as e:
-          #  reply = "⚠️ Something went wrong. Please contact M.Umar at gmail=umarhumayon0@gmail.com"
-          reply=e
+            reply = "⚠️ Something went wrong. Please contact M.Umar at gmail=umarhumayon0@gmail.com"
+          # reply=e
     st.markdown(
         f"<div style='padding:20px; border-radius:15px; background-color:rgba(0,0,0,0.6); font-family:Roboto; font-size:18px;'>{reply}</div>",
         unsafe_allow_html=True
     )
+
 
 
