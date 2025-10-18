@@ -143,7 +143,7 @@ import google.generativeai as genai
 # ----------------- CONFIG -----------------
 st.set_page_config(page_title="EMI's Personal ChatBox", page_icon="💫", layout="wide")
 
-GEMINI_API_KEY = "AIzaSyAZLfpIg82qWf1tp-5R4sW7h9d_JL1qWLg"
+GEMINI_API_KEY = "AIzaSyCAtvxcOZrhLbyMM21Dg-zmL30DgsyFs-M"
 UNSPLASH_ACCESS_KEY = "x9hP-tVaCBN-ZVr7x8bSDbfjksybO_2Z54e178m06oE"
 
 # ----------------- GEMINI SETUP -----------------
@@ -269,6 +269,7 @@ User: {user_input}
         f"<div style='padding:20px; border-radius:15px; background-color:rgba(0,0,0,0.6); font-family:Roboto; font-size:18px;'>{reply}</div>",
         unsafe_allow_html=True
     )
+
 
 
 
