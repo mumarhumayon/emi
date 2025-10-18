@@ -83,7 +83,7 @@ if st.session_state.bg_image:
 def get_warm_message():
     try:
         prompt = (
-        prompt = """
+"""
 Generate a short, gentle, and emotionally comforting message (1–2 lines max) for a 20-year-old girl who often feels sad, lonely, sick, and in grief. 
 The message should sound warm, human, and kind — as if coming from a loving friend. 
 It should help her feel hopeful, relaxed, and emotionally supported. 
@@ -130,6 +130,7 @@ if user_input:
         f"<div style='padding:20px; border-radius:15px; background-color:rgba(0,0,0,0.6); font-family:Roboto; font-size:18px;'>{reply}</div>",
         unsafe_allow_html=True
     )
+
 
 
 
