@@ -9,7 +9,7 @@
 # # ----------------- CONFIG -----------------
 # st.set_page_config(page_title="EMI's Personal ChatBox", page_icon="💫", layout="wide")
 
-# GEMINI_API_KEY = "AIzaSyBEbX9ini0TvJZmgi5ghMsWOwiC02K8vO0"
+# GEMINI_API_KEY = "AIzaSyCCN3pQeIhceSHoqZKux6dD-CscoztMltI"
 # UNSPLASH_ACCESS_KEY = "x9hP-tVaCBN-ZVr7x8bSDbfjksybO_2Z54e178m06oE"
 
 # # ----------------- GEMINI SETUP -----------------
@@ -399,3 +399,4 @@ if user_input:
         f"<div style='padding:20px; border-radius:15px; background-color:rgba(0,0,0,0.6); font-family:Roboto; font-size:18px;'>{reply}</div>",
         unsafe_allow_html=True
     )
+
