@@ -88,7 +88,7 @@ Generate a short, gentle, and emotionally comforting message (1–2 lines max) f
 The message should sound warm, human, and kind — as if coming from a loving friend. 
 It should help her feel hopeful, relaxed, and emotionally supported. 
 You may include fitting emojis if they enhance comfort or positivity. 
-Avoid generic advice or motivational clichés — make it soft, empathetic, and real.dpn,t ask for any option or anything, just give the expteced message
+Avoid generic advice or motivational clichés — make it soft, empathetic, and real. don't ask for any option or anything, just give the expected message
 """
 
             # "Generate a short, warm, and motivational message for the user. "
@@ -130,6 +130,7 @@ if user_input:
         f"<div style='padding:20px; border-radius:15px; background-color:rgba(0,0,0,0.6); font-family:Roboto; font-size:18px;'>{reply}</div>",
         unsafe_allow_html=True
     )
+
 
 
 
